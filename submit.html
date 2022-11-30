@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>表单提交</title>
+</head>
+
+<body>
+  <form action="/file" method="POST" enctype="multipart/form-data">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname" value="张">
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" value="三">
+    <label for="file">file:</label>
+    <input type="file" id="file" name="file">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
