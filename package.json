@@ -8,11 +8,13 @@
     "express-fileupload": "^1.4.0",
     "node-fetch": "^3.3.0",
     "parse-headers": "^2.0.5",
+    "puppeteer": "^19.3.0",
     "socket.io": "^4.5.4"
   },
   "name": "note",
   "version": "1.0.0",
   "main": "__test__.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
